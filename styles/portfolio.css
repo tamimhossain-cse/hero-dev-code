@@ -88,12 +88,14 @@ nav .menu a{
     max-width: 580px;
     vertical-align: middle;
 }
-#about{
+#about ,#skills{
     padding-top: 130px;
    
 }
 .section-heading h2{
     margin-bottom: 30px;
+    font-size: 36px;
+    color: #181818;
 
 }
     
@@ -116,3 +118,53 @@ nav .menu a{
     color: #757575;
     line-height: 30px;
 }
+#skills .section-heading{
+    width: 827px;
+    text-align: center;
+    margin: 0 auto;
+  
+}
+#skills .section-heading p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+#card{
+    padding: 30px;
+    
+
+  
+}
+.card-container{
+   padding-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card-container .card-item{
+    /* Rectangle 5 */
+width: 267px;
+height: 377px;
+    box-shadow: 0 6px 50px 0 #00000011;
+border-radius: 10px;
+    
+    
+}
+
+.card-container .card-item p{
+    padding-top: 30px;
+    width: 204px;
+    height: 243px;
+    margin: auto;
+}
+.card-container h3{
+    font-size: 24px;
+    color: #181818;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.card-container .card-item img{
+    padding: 30px 30px 0 30px;
+}
+
